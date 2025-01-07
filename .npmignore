@@ -5,4 +5,4 @@ android/local.properties
 .git/
 .gitignore
 .DS_Store
-
+./ios/react-native-wakeword.podspec
