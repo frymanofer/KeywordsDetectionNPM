@@ -63,6 +63,24 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
 
     // Create a new instance
     @ReactMethod
+    public String getRecordingWav(String instanceId, Promise promise) {
+        KeyWordsDetection instance = instances.get(instanceId);
+        String recordingWav = "";
+        if (instance == null) {
+            promise.reject("Instance not Exists", "Instance does not exists with ID: " + instanceId);
+            return recordingWav;
+        }
+        try {
+            recordingWav = instance.getRecordingWav();
+            promise.resolve("Instance ID: " + instanceId + " change model " + modelName);
+        } catch (Exception e) {
+            promise.reject("CreateError", "Failed to create instance: " + e.getMessage());
+        }
+        return recordingWav;
+    }
+
+    // Create a new instance
+    @ReactMethod
     public void replaceKeywordDetectionModel(String instanceId, String modelName, float threshold, int bufferCnt, Promise promise) {
         KeyWordsDetection instance = instances.get(instanceId);
         if (instance == null) {
