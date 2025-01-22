@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "KeyWordDetection",
+    "printedName": "KeyWordDetection",
     "children": [
       {
         "kind": "Import",
@@ -508,6 +508,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -644,6 +658,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1252,6 +1282,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1387,34 +1431,6 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "KeyWordDetection"
-      },
-      {
-        "kind": "Import",
-        "name": "os.log",
-        "printedName": "os.log",
-        "declKind": "Import",
-        "moduleName": "KeyWordDetection"
-      },
-      {
-        "kind": "Import",
-        "name": "onnxruntime_objc",
-        "printedName": "onnxruntime_objc",
-        "declKind": "Import",
-        "moduleName": "KeyWordDetection"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KeyWordDetection"
-      },
-      {
-        "kind": "Import",
         "name": "CommonCrypto",
         "printedName": "CommonCrypto",
         "declKind": "Import",
@@ -1466,6 +1482,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1635,10 +1665,80 @@
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26448,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26943,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 6598,
-      "length": 17,
-      "value": "\"KeyWordDetection.KeyWordsDetection\""
+      "offset": 26988,
+      "length": 12,
+      "value": "\"ORTSession\""
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27008,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 27049,
+      "length": 34,
+      "value": "\"Failed to retrieve output values\""
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27482,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27546,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27573,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27803,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27808,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
@@ -1751,34 +1851,6 @@
       "offset": 1740,
       "length": 1,
       "value": "5"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
-      "kind": "StringLiteral",
-      "offset": 72,
-      "length": 27,
-      "value": "\"KeyWordDetection.AudioProcessorFromVADOrFile\""
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/VADModelWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1161,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/VADModelWrapper.swift",
-      "kind": "Array",
-      "offset": 1207,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/VADModelWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 3,
-      "value": "512"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/Constants.swift",

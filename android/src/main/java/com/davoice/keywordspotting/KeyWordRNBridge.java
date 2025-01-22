@@ -72,7 +72,7 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
         }
         try {
             recordingWav = instance.getRecordingWav();
-            promise.resolve("Instance ID: " + instanceId + " change model " + modelName);
+            promise.resolve("Instance ID: " + instanceId + " getting getRecordingWav");
         } catch (Exception e) {
             promise.reject("CreateError", "Failed to create instance: " + e.getMessage());
         }
