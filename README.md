@@ -1,6 +1,6 @@
 ## About this package:
 
-This is a **"wake word"** package for React Native. A wake word is a keyword that activates your device, like "Hey Siri" or "OK Google".
+This is a **"wake word"** package for React Native. A wake word is a keyword that activates your device, like "Hey Siri" or "OK Google". "Wake Word" is also known as "keyword detection", "Phrase Recognition", "Phrase Spotting", “Voice triggered”, “hot word”, “trigger word”
 
 It also provide **Speech to Intent**. **Speech to Intent** refers to the ability to recognize a spoken word or phrase
 and directly associate it with a specific action or operation within an application. Unlike a **"wake word"**, which typically serves to activate or wake up the application,
@@ -76,11 +76,21 @@ Our platform ensures 99.99%+ accuracy in various environments.
 
 ### Key words
 
-DaVoice.io Voice commands / Wake words / Voice to Intent / keyword detection npm for Android and IOS.
+"DaVoice.io" 
+"Voice commands"
 "Wake word detection github"
+“Voice triggered”
+“hot word”
+“react-native trigger word”
+“react-native Voice triggered”
+“react-native hot word”
 "react-native wake word",
-"Wake word detection github",
 "Wake word generator",
+"hot word generator",
+"trigger word generator",
+"Custom wake word generator",
+"Custom hot word",
+"Custom trigger word",
 "Custom wake word",
 "voice commands",
 "wake word",
@@ -89,6 +99,7 @@ DaVoice.io Voice commands / Wake words / Voice to Intent / keyword detection npm
 "keyword detection",
 "keyword spotting",
 "speech to intent",
+"voice commands",
 "voice to intent",
 "phrase spotting",
 "react native wake word",
@@ -102,5 +113,56 @@ DaVoice.io Voice commands / Wake words / Voice to Intent / keyword detection npm
 "lightweight Voice Commands Recognition",
 "customized lightweight Voice Commands Recognition",
 "rn wake word"
+"Davoice.io",
+"voice commands",
+"wake word",
+"wakeword",
+"wake words",
+"keyword detection",
+"keyword spotting",
+"Wake word detection github"
+"Wake Word" 
+"keyword detection"
+"Phrase Recognition"
+"Phrase Spotting"
+"react-native wake word",
+"Custom wake word",
+"voice commands",
+"wake word",
+"wakeword",
+"wake words",
+"keyword detection",
+"keyword spotting",
+"speech to intent",
+"voice to intent",
+"phrase spotting",
+"react native wake word",
+"Davoice.io wake word",
+"Davoice wake word",
+"Davoice wake word",
+"Davoice react native wake word",
+"Davoice.io react-native wake word",
+"wake",
+"word",
+"Voice Commands Recognition",
+"lightweight Voice Commands Recognition",
+"customized lightweight Voice Commands Recognition",
+"rn wake word"
+"speech to intent",
+"voice to intent",
+"phrase spotting",
+"react native wake word",
+"Davoice.io wake word",
+"Davoice wake word",
+"Davoice react native wake word",
+"Davoice react-native wake word",
+"wake",
+"word",
+"Voice Commands Recognition",
+"lightweight Voice Commands Recognition",
+"customized lightweight Voice Commands Recognition",
+"Custom wake word",
+"rn wake word"
+
 
 
