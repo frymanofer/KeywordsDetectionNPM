@@ -5,7 +5,9 @@
     "main": "wakewords/index.js",
     "types": "wakewords/index.d.ts",
     "expo": {
-        "plugins": ["./plugin"]
+        "plugins": [
+            "./app.plugin.js"
+          ]
     },    
     "files": [
         "wakewords/",
@@ -13,6 +15,7 @@
         "ios/",
         "react-native.config.js",
         "module.modulemap",
+        "./app.plugin.js",
         "KeyWordDetection.podspec"
     ],
     "react-native": {
