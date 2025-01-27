@@ -1552,511 +1552,511 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/GlobalVariables.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/GlobalVariables.swift",
       "kind": "FloatLiteral",
       "offset": 314,
       "length": 6,
       "value": "0.9999"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/GlobalVariables.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/GlobalVariables.swift",
       "kind": "IntegerLiteral",
       "offset": 359,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7128,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 7323,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7479,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7620,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7625,
       "length": 2,
       "value": "97"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7767,
       "length": 5,
       "value": "16000"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7824,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7906,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7942,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 7974,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 8424,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 8481,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 8527,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 8612,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 26448,
+      "offset": 26511,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 26943,
+      "offset": 27006,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 26988,
+      "offset": 27051,
       "length": 12,
       "value": "\"ORTSession\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27008,
+      "offset": 27071,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 27049,
+      "offset": 27112,
       "length": 34,
       "value": "\"Failed to retrieve output values\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27482,
+      "offset": 27545,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27546,
+      "offset": 27609,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27555,
+      "offset": 27618,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27573,
+      "offset": 27636,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27803,
+      "offset": 27866,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27808,
+      "offset": 27871,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 139,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 180,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 226,
       "length": 7,
       "value": "16000.0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 29,
       "value": "\"AudioProcessorFromVADOrFile\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 17,
       "value": "\"silero_vad.onnx\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 872,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 914,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 993,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 1083,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 1187,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 1438,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 1485,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 1539,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "Array",
       "offset": 1641,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "Array",
       "offset": 1692,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 1740,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/Constants.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 49,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/Constants.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 5,
       "value": "16000"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "Array",
       "offset": 229,
       "length": 7,
       "value": "[16000]"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "Dictionary",
       "offset": 353,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 113,
       "length": 4,
       "value": "\"c1\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 144,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 3,
       "value": "\"f\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 3,
       "value": "\"b\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 3,
       "value": "\"Z\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 3,
       "value": "\"V\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 3,
       "value": "\"H\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 3,
       "value": "\"I\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 3,
       "value": "\"T\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 3,
       "value": "\"k\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 3,
       "value": "\"m\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 3,
       "value": "\"O\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 3,
       "value": "\"4\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 3,
       "value": "\"w\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 3,
       "value": "\"c\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 693,
       "length": 3,
       "value": "\"Z\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 3,
       "value": "\"V\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 751,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 780,
       "length": 3,
       "value": "\"T\""
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/VAD_WAKEWORD_FILES\/wakewords\/KeyWordLibraryIOS3\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 3,
