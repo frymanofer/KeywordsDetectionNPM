@@ -3414,6 +3414,31 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "sessionOptions",
+            "printedName": "sessionOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CategoryOptions",
+                "printedName": "AVFAudio.AVAudioSession.CategoryOptions",
+                "usr": "c:@E@AVAudioSessionCategoryOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC14sessionOptions026_06F013A89136C43D4A3CB07C5O5F279DLLSo022AVAudioSessionCategoryJ0Vvp",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC14sessionOptions026_06F013A89136C43D4A3CB07C5O5F279DLLSo022AVAudioSessionCategoryJ0Vvp",
+            "moduleName": "KeyWordDetection",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 19,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(callback:)",
@@ -3586,6 +3611,33 @@
           },
           {
             "kind": "Function",
+            "name": "handleAudioRouteChange",
+            "printedName": "handleAudioRouteChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KeyWordDetection@objc(cs)AudioProcessorFromVADOrFile(im)handleAudioRouteChange:",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC06handleD11RouteChangeyy10Foundation12NotificationVF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "handleAudioSessionInterruption",
             "printedName": "handleAudioSessionInterruption(_:)",
             "children": [
@@ -3613,28 +3665,22 @@
           },
           {
             "kind": "Function",
-            "name": "handleAudioRouteChange",
-            "printedName": "handleAudioRouteChange(_:)",
+            "name": "reclaimMicrophone",
+            "printedName": "reclaimMicrophone()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Notification",
-                "printedName": "Foundation.Notification",
-                "usr": "s:10Foundation12NotificationV"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@KeyWordDetection@objc(cs)AudioProcessorFromVADOrFile(im)handleAudioRouteChange:",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC06handleD11RouteChangeyy10Foundation12NotificationVF",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC17reclaimMicrophoneyyF",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC17reclaimMicrophoneyyF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
-              "ObjC"
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3744,6 +3790,24 @@
           },
           {
             "kind": "Function",
+            "name": "checkMicrophoneAvailability",
+            "printedName": "checkMicrophoneAvailability()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC27checkMicrophoneAvailabilityyyF",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC27checkMicrophoneAvailabilityyyF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "printCurrentAudioOutputRoute",
             "printedName": "printCurrentAudioOutputRoute()",
             "children": [
@@ -3756,6 +3820,100 @@
             "declKind": "Func",
             "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC012printCurrentD11OutputRouteyyF",
             "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC012printCurrentD11OutputRouteyyF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateAudioSessionWithRetryAndStartVP",
+            "printedName": "activateAudioSessionWithRetryAndStartVP(frameLength:sampleRate:delay:maxRetries:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC08activateD26SessionWithRetryAndStartVP11frameLength10sampleRate5delay10maxRetriesys6UInt32V_SiSdSitF",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC08activateD26SessionWithRetryAndStartVP11frameLength10sampleRate5delay10maxRetriesys6UInt32V_SiSdSitF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateAudioSessionWithRetry",
+            "printedName": "activateAudioSessionWithRetry(delay:maxRetries:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC08activateD16SessionWithRetry5delay10maxRetriesySd_SitF",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC08activateD16SessionWithRetry5delay10maxRetriesySd_SitF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureAudioSession",
+            "printedName": "configureAudioSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC09configureD7SessionyyF",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC09configureD7SessionyyF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -5265,6 +5423,34 @@
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 1740,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 14432,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14463,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 16593,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16616,
       "length": 1,
       "value": "5"
     },

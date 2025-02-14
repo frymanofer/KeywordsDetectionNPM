@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		0FBOGY4ycQ9GprXAyHhptL0fu4g=
+		x/LQM1GnqP5F5ccJubWURn9HabY=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		wN7g5v/D+sL+4i+FnTK0gJjh5jM=
+		SbsUG0hKn6gpH7RFCPOtEjvpmFE=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5xrogyNDiFZqWedbl86rXG+UbhI=
+		bTb5ewFfLalPCp2u5G3KriAMtZs=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YlrHLjs7wzbcdyKbz2+4RzPPH1o=
+		5Z76GzXLXktgw6/8VSYRuT81POs=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iqADphrfPT2U12OoMDjzhjg+1xs=
+		B2tY66RFau10wq7mq5Z6nbNiMPE=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5xrogyNDiFZqWedbl86rXG+UbhI=
+		bTb5ewFfLalPCp2u5G3KriAMtZs=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		oPhcyd5wFdxUDF/FpjEG2xnRXvQ=
+		3H+p9is1xjGv7cV+cZEdEpctUIg=
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E2KR5aAVTLobCCMJMGdqqFMWxOY=
+		mtO+yoF48rP67vVF+yGRLrsKa3E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,21 +89,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CcGTuPQ/tftzsyvEcZuIAgom2lsTVp2R58A3RBOqPi8=
+			mZBa4drBmYaUdyEX72nl2lQq0ONJv3xCilL+YmfTPnE=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Te0SAiLUN1YEDSvywn9tHbYoQe5VgGpHG/HljST1NqQ=
+			hjyUxbDc90cBSfWsD8G7EDGPd1wDBgO3fLSVVkLRFfg=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rvHLJRAbasrNPM1zLsTmxYmBVUq5GNFx5lsUJ58sQ0A=
+			PhsYW21x8fciC4Ris8ux2wc/pTK5ztZIRSmoEZlQ4Ng=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c+fSnM/YSkDpj5hdbPlDbshf15oQrhlDn167KGScDDk=
+			0GwozLOk8YHIAp5fDE37tLMDo1Wtj1oHo9f6SOaeIQU=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+jscFRt1aKJKpL9SbkvKWgistlsQVxmBnJOrPOiQ7YU=
+			i6yshl0u1qn4NL7420MqV42Qh6OP+wnLfD9Rqovowg4=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rvHLJRAbasrNPM1zLsTmxYmBVUq5GNFx5lsUJ58sQ0A=
+			PhsYW21x8fciC4Ris8ux2wc/pTK5ztZIRSmoEZlQ4Ng=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EXy6VEUGcdfamaRxQYZO7yICy9AU4nPizb4Zkk7ka+k=
+			dNmwSVJ1fR+w1Ng5lnBU/GJZpIi3PwmbPaO5YMsSHdQ=
 			</data>
 		</dict>
 		<key>Modules/KeyWordDetection.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JaRxeu5hRmXauq10bKhGeYwoApml9m5YU0NJuSRPSWE=
+			rmLJadE/ga2bwxauOLemWkwNiOEx8p3UeuTrnp0LUp8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

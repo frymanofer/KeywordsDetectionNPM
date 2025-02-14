@@ -1853,6 +1853,34 @@
       "value": "5"
     },
     {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 14432,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14463,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 16593,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16616,
+      "length": 1,
+      "value": "5"
+    },
+    {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 49,
