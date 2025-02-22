@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   
     s.dependency "React"
     s.dependency "onnxruntime-objc", "~> 1.18.0"
-    s.dependency "ios-voice-processor", "~> 1.2.0"
   
     s.module_map = "module.modulemap"
 
