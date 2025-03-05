@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios13.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name KeyWordDetection
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import AudioToolbox
 import CommonCrypto
 import Foundation
 @_exported import KeyWordDetection
@@ -33,14 +34,14 @@ import os
   @objc public func getRecordingWav() -> Swift.String
   @objc public func setKeywordDetectionLicense(licenseKey: Swift.String) -> Swift.Bool
   @objc public func setLicense(licenseKey: Swift.String) -> Swift.Bool
-  @objc public func callBack(frame: [Swift.Int16])
+  @objc public func callBack(frame: [Swift.Float])
   @objc public func startListening() -> Swift.Bool
   @objc public func stopListening()
   @objc deinit
 }
 public class AVAudioWrapperError : Foundation.LocalizedError {
   public init(_ message: Swift.String)
-  public var errorDescription: Swift.String {
+  public var errorDescription: Swift.String? {
     get
   }
   public var name: Swift.String {
@@ -60,10 +61,17 @@ public class AVAudioWrapperError : Foundation.LocalizedError {
   override public init(_ message: Swift.String)
   @objc deinit
 }
-public typealias AVAudioWrapperFrameCallback = ([Swift.Int16]) -> Swift.Void
+public class AVAudioWrapperBuffer {
+  public init(size: Swift.Int)
+  public func write(samples: [Swift.Float])
+  public func read(count: Swift.Int) -> [Swift.Float]
+  public func availableSamples() -> Swift.Int
+  @objc deinit
+}
+public typealias AVAudioWrapperFrameCallback = ([Swift.Float]) -> Swift.Void
 public class AVAudioWrapperFrameListener {
   public init(_ callback: @escaping KeyWordDetection.AVAudioWrapperFrameCallback)
-  public func onFrame(_ frame: [Swift.Int16])
+  public func onFrame(_ frame: [Swift.Float])
   @objc deinit
 }
 public typealias AVAudioWrapperErrorCallback = (KeyWordDetection.AVAudioWrapperError) -> Swift.Void
@@ -86,7 +94,6 @@ public class AVAudioWrapperErrorListener {
   public var numFrameListeners: Swift.Int {
     get
   }
-  public func setSessionOptions(sessionOptions: AVFAudio.AVAudioSession.CategoryOptions)
   public var numErrorListeners: Swift.Int {
     get
   }
@@ -95,22 +102,14 @@ public class AVAudioWrapperErrorListener {
   }
   public static func requestRecordAudioPermission(_ response: @escaping (Swift.Bool) -> Swift.Void)
   public func addFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
-  public func addFrameListeners(_ listeners: [KeyWordDetection.AVAudioWrapperFrameListener])
   public func removeFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
-  public func removeFrameListeners(_ listeners: [KeyWordDetection.AVAudioWrapperFrameListener])
   public func clearFrameListeners()
   public func addErrorListener(_ listener: KeyWordDetection.AVAudioWrapperErrorListener)
   public func removeErrorListener(_ listener: KeyWordDetection.AVAudioWrapperErrorListener)
   public func clearErrorListeners()
-  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32) throws
+  public func setSessionOptions(sessionOptions: AVFAudio.AVAudioSession.CategoryOptions)
+  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32)
   public func stop() throws
-  @objc deinit
-}
-public class AVAudioWrapperBuffer {
-  public init(size: Swift.Int)
-  public func write(samples: [Swift.Int16]) throws
-  public func read(count: Swift.Int) -> [Swift.Int16]
-  public func availableSamples() -> Swift.Int
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class LicenseManager : ObjectiveC.NSObject {

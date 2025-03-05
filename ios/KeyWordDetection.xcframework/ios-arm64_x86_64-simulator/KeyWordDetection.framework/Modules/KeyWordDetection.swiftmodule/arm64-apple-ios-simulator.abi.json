@@ -1922,13 +1922,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Int16]",
+                "printedName": "[Swift.Float]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sa"
@@ -1941,8 +1941,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KeyWordDetection0a5WordsC0C10storeFrame5frame0G6LengthySays5Int16VG_SitF",
-            "mangledName": "$s16KeyWordDetection0a5WordsC0C10storeFrame5frame0G6LengthySays5Int16VG_SitF",
+            "usr": "s:16KeyWordDetection0a5WordsC0C10storeFrame5frame0G6LengthySaySfG_SitF",
+            "mangledName": "$s16KeyWordDetection0a5WordsC0C10storeFrame5frame0G6LengthySaySfG_SitF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
@@ -1972,6 +1972,9 @@
             "mangledName": "$s16KeyWordDetection0a5WordsC0C16flushBufferToWav8fileNameySS_tF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2135,13 +2138,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Int16]",
+                "printedName": "[Swift.Float]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sa"
@@ -2149,7 +2152,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@KeyWordDetection@objc(cs)KeyWordsDetection(im)callBackWithFrame:",
-            "mangledName": "$s16KeyWordDetection0a5WordsC0C8callBack5frameySays5Int16VG_tF",
+            "mangledName": "$s16KeyWordDetection0a5WordsC0C8callBack5frameySaySfG_tF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "objc_name": "callBackWithFrame:",
@@ -2585,7 +2588,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int16]) -> ()",
+                "printedName": "([Swift.Float]) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2595,13 +2598,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int16]",
+                    "printedName": "[Swift.Float]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int16",
-                        "printedName": "Swift.Int16",
-                        "usr": "s:s5Int16V"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sa"
@@ -2610,8 +2613,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC9callBack2026_06F013A89136C43D4A3CB07C5O5F279DLLyySays5Int16VGcvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC9callBack2026_06F013A89136C43D4A3CB07C5O5F279DLLyySays5Int16VGcvp",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC9callBack2026_06F013A89136C43D4A3CB07C5O5F279DLLyySaySfGcvp",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC9callBack2026_06F013A89136C43D4A3CB07C5O5F279DLLyySaySfGcvp",
             "moduleName": "KeyWordDetection",
             "isInternal": true,
             "declAttributes": [
@@ -2649,8 +2652,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 5,
             "hasStorage": true
@@ -2683,8 +2685,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 6,
             "hasStorage": true,
@@ -2824,71 +2825,6 @@
           },
           {
             "kind": "Var",
-            "name": "buffer",
-            "printedName": "buffer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC6buffer026_06F013A89136C43D4A3CB07C5N5F279DLLSays5Int16VGvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC6buffer026_06F013A89136C43D4A3CB07C5N5F279DLLSays5Int16VGvp",
-            "moduleName": "KeyWordDetection",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 7,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "tmpBuffer",
-            "printedName": "tmpBuffer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC9tmpBuffer026_06F013A89136C43D4A3CB07C5O5F279DLLSays5Int16VGvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC9tmpBuffer026_06F013A89136C43D4A3CB07C5O5F279DLLSays5Int16VGvp",
-            "moduleName": "KeyWordDetection",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 8,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "buffer_cleared",
             "printedName": "buffer_cleared",
             "children": [
@@ -2907,9 +2843,10 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -2934,7 +2871,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -2960,7 +2897,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 9,
             "hasStorage": true
           },
           {
@@ -2986,7 +2923,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 10,
             "hasStorage": true,
             "accessors": [
               {
@@ -3158,40 +3095,6 @@
           },
           {
             "kind": "Var",
-            "name": "outgoingBuffer",
-            "printedName": "outgoingBuffer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC14outgoingBuffer026_06F013A89136C43D4A3CB07C5O5F279DLLSays5Int16VGvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC14outgoingBuffer026_06F013A89136C43D4A3CB07C5O5F279DLLSays5Int16VGvp",
-            "moduleName": "KeyWordDetection",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 13,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "lastTimeHumanVoiceHeard",
             "printedName": "lastTimeHumanVoiceHeard",
             "children": [
@@ -3213,7 +3116,7 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 11,
             "hasStorage": true
           },
           {
@@ -3238,40 +3141,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 15,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "audioBuffer",
-            "printedName": "audioBuffer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC11audioBuffer026_06F013A89136C43D4A3CB07C5O5F279DLLSays5Int16VGvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC11audioBuffer026_06F013A89136C43D4A3CB07C5O5F279DLLSays5Int16VGvp",
-            "moduleName": "KeyWordDetection",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 12,
             "hasStorage": true
           },
           {
@@ -3282,18 +3152,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[[Swift.Int16]]",
+                "printedName": "[[Swift.Float]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int16]",
+                    "printedName": "[Swift.Float]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int16",
-                        "printedName": "Swift.Int16",
-                        "usr": "s:s5Int16V"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sa"
@@ -3303,8 +3173,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC10frameQueue026_06F013A89136C43D4A3CB07C5O5F279DLLSaySays5Int16VGGvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC10frameQueue026_06F013A89136C43D4A3CB07C5O5F279DLLSaySays5Int16VGGvp",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC10frameQueue026_06F013A89136C43D4A3CB07C5O5F279DLLSaySaySfGGvp",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC10frameQueue026_06F013A89136C43D4A3CB07C5O5F279DLLSaySaySfGGvp",
             "moduleName": "KeyWordDetection",
             "isInternal": true,
             "declAttributes": [
@@ -3312,7 +3182,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 13,
             "hasStorage": true
           },
           {
@@ -3323,18 +3193,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[[Swift.Int16]]",
+                "printedName": "[[Swift.Float]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int16]",
+                    "printedName": "[Swift.Float]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int16",
-                        "printedName": "Swift.Int16",
-                        "usr": "s:s5Int16V"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sa"
@@ -3344,8 +3214,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC18preallocatedFrames026_06F013A89136C43D4A3CB07C5O5F279DLLSaySays5Int16VGGvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC18preallocatedFrames026_06F013A89136C43D4A3CB07C5O5F279DLLSaySays5Int16VGGvp",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC18preallocatedFrames026_06F013A89136C43D4A3CB07C5O5F279DLLSaySaySfGGvp",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC18preallocatedFrames026_06F013A89136C43D4A3CB07C5O5F279DLLSaySaySfGGvp",
             "moduleName": "KeyWordDetection",
             "isInternal": true,
             "declAttributes": [
@@ -3353,7 +3223,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 14,
             "hasStorage": true
           },
           {
@@ -3428,59 +3298,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 19,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "lastReclaimAttempt",
-            "printedName": "lastReclaimAttempt",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC18lastReclaimAttempt026_06F013A89136C43D4A3CB07C5P5F279DLLSdvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC18lastReclaimAttempt026_06F013A89136C43D4A3CB07C5P5F279DLLSdvp",
-            "moduleName": "KeyWordDetection",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 20,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "reclaimCooldown",
-            "printedName": "reclaimCooldown",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC15reclaimCooldown026_06F013A89136C43D4A3CB07C5O5F279DLLSdvp",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC15reclaimCooldown026_06F013A89136C43D4A3CB07C5O5F279DLLSdvp",
-            "moduleName": "KeyWordDetection",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 21,
-            "isLet": true,
+            "fixedbinaryorder": 15,
             "hasStorage": true
           },
           {
@@ -3497,7 +3315,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int16]) -> ()",
+                "printedName": "([Swift.Float]) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3507,13 +3325,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int16]",
+                    "printedName": "[Swift.Float]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int16",
-                        "printedName": "Swift.Int16",
-                        "usr": "s:s5Int16V"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sa"
@@ -3522,12 +3340,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC8callbackACySays5Int16VGc_tcfc",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC8callbackACySays5Int16VGc_tcfc",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC8callbackACySaySfGc_tcfc",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC8callbackACySaySfGc_tcfc",
             "moduleName": "KeyWordDetection",
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "init_kind": "Designated"
           },
           {
@@ -3622,43 +3437,6 @@
           },
           {
             "kind": "Function",
-            "name": "cbbbb",
-            "printedName": "cbbbb(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@KeyWordDetection@objc(cs)AudioProcessorFromVADOrFile(im)cbbbbWithFrame:",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC5cbbbb5frameySays5Int16VG_tF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "objc_name": "cbbbbWithFrame:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "handleAudioRouteChange",
             "printedName": "handleAudioRouteChange(_:)",
             "children": [
@@ -3727,9 +3505,6 @@
             "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC17reclaimMicrophoneyyF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -3766,6 +3541,9 @@
             "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC26checkMicrophonePermissions10completionyySbc_tF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -3781,13 +3559,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Int16]",
+                "printedName": "[Swift.Float]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sa"
@@ -3800,8 +3578,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC10storeFrame5frame0K6LengthySays5Int16VG_SitF",
-            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC10storeFrame5frame0K6LengthySays5Int16VG_SitF",
+            "usr": "s:16KeyWordDetection27AudioProcessorFromVADOrFileC10storeFrame5frame0K6LengthySaySfG_SitF",
+            "mangledName": "$s16KeyWordDetection27AudioProcessorFromVADOrFileC10storeFrame5frame0K6LengthySaySfG_SitF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
@@ -4398,7 +4176,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "fixedbinaryorder": 3,
             "isLet": true,
@@ -4667,6 +4446,20 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "KeyWordDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "KeyWordDetection"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4711,14 +4504,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSvp",
-            "mangledName": "$s16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSvp",
+            "usr": "s:16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSSgvp",
+            "mangledName": "$s16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSSgvp",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
@@ -4732,14 +4533,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSvg",
-                "mangledName": "$s16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSvg",
+                "usr": "s:16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSSgvg",
+                "mangledName": "$s16KeyWordDetection19AVAudioWrapperErrorC16errorDescriptionSSSgvg",
                 "moduleName": "KeyWordDetection",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -4795,7 +4604,8 @@
         "moduleName": "KeyWordDetection",
         "isOpen": true,
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5094,11 +4904,160 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "KeyWordDetection"
+        "kind": "TypeDecl",
+        "name": "AVAudioWrapperBuffer",
+        "printedName": "AVAudioWrapperBuffer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioWrapperBuffer",
+                "printedName": "KeyWordDetection.AVAudioWrapperBuffer",
+                "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC4sizeACSi_tcfc",
+            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC4sizeACSi_tcfc",
+            "moduleName": "KeyWordDetection",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write(samples:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC5write7samplesySaySfG_tF",
+            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC5write7samplesySaySfG_tF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC4read5countSaySfGSi_tF",
+            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC4read5countSaySfGSi_tF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "availableSamples",
+            "printedName": "availableSamples()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC16availableSamplesSiyF",
+            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC16availableSamplesSiyF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC",
+        "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC",
+        "moduleName": "KeyWordDetection",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5119,7 +5078,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([Swift.Int16]) -> ()",
+                "printedName": "([Swift.Float]) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5129,13 +5088,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.Int16]",
+                    "printedName": "[Swift.Float]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int16",
-                        "printedName": "Swift.Int16",
-                        "usr": "s:s5Int16V"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sa"
@@ -5144,8 +5103,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16KeyWordDetection27AVAudioWrapperFrameListenerCyACySays5Int16VGccfc",
-            "mangledName": "$s16KeyWordDetection27AVAudioWrapperFrameListenerCyACySays5Int16VGccfc",
+            "usr": "s:16KeyWordDetection27AVAudioWrapperFrameListenerCyACySaySfGccfc",
+            "mangledName": "$s16KeyWordDetection27AVAudioWrapperFrameListenerCyACySaySfGccfc",
             "moduleName": "KeyWordDetection",
             "declAttributes": [
               "AccessControl"
@@ -5165,21 +5124,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Int16]",
+                "printedName": "[Swift.Float]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KeyWordDetection27AVAudioWrapperFrameListenerC02onF0yySays5Int16VGF",
-            "mangledName": "$s16KeyWordDetection27AVAudioWrapperFrameListenerC02onF0yySays5Int16VGF",
+            "usr": "s:16KeyWordDetection27AVAudioWrapperFrameListenerC02onF0yySaySfGF",
+            "mangledName": "$s16KeyWordDetection27AVAudioWrapperFrameListenerC02onF0yySaySfGF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
@@ -5336,7 +5295,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5384,7 +5344,8 @@
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5567,33 +5528,6 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "setSessionOptions",
-            "printedName": "setSessionOptions(sessionOptions:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CategoryOptions",
-                "printedName": "AVFAudio.AVAudioSession.CategoryOptions",
-                "usr": "c:@E@AVAudioSessionCategoryOptions"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KeyWordDetection14AVAudioWrapperC17setSessionOptions07sessionH0ySo0dg8CategoryH0V_tF",
-            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC17setSessionOptions07sessionH0ySo0dg8CategoryH0V_tF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "numErrorListeners",
             "printedName": "numErrorListeners",
@@ -5636,6 +5570,33 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "handleEngineConfigChange",
+            "printedName": "handleEngineConfigChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection14AVAudioWrapperC24handleEngineConfigChangeyy10Foundation12NotificationVF",
+            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC24handleEngineConfigChangeyy10Foundation12NotificationVF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "hasRecordAudioPermission",
             "printedName": "hasRecordAudioPermission",
@@ -5654,7 +5615,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5744,42 +5706,8 @@
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addFrameListeners",
-            "printedName": "addFrameListeners(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[KeyWordDetection.AVAudioWrapperFrameListener]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVAudioWrapperFrameListener",
-                    "printedName": "KeyWordDetection.AVAudioWrapperFrameListener",
-                    "usr": "s:16KeyWordDetection27AVAudioWrapperFrameListenerC"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KeyWordDetection14AVAudioWrapperC17addFrameListenersyySayAA0deG8ListenerCGF",
-            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC17addFrameListenersyySayAA0deG8ListenerCGF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5803,41 +5731,6 @@
             "declKind": "Func",
             "usr": "s:16KeyWordDetection14AVAudioWrapperC19removeFrameListeneryyAA0degH0CF",
             "mangledName": "$s16KeyWordDetection14AVAudioWrapperC19removeFrameListeneryyAA0degH0CF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeFrameListeners",
-            "printedName": "removeFrameListeners(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[KeyWordDetection.AVAudioWrapperFrameListener]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVAudioWrapperFrameListener",
-                    "printedName": "KeyWordDetection.AVAudioWrapperFrameListener",
-                    "usr": "s:16KeyWordDetection27AVAudioWrapperFrameListenerC"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KeyWordDetection14AVAudioWrapperC20removeFrameListenersyySayAA0deG8ListenerCGF",
-            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC20removeFrameListenersyySayAA0deG8ListenerCGF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
@@ -5943,6 +5836,33 @@
           },
           {
             "kind": "Function",
+            "name": "setSessionOptions",
+            "printedName": "setSessionOptions(sessionOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CategoryOptions",
+                "printedName": "AVFAudio.AVAudioSession.CategoryOptions",
+                "usr": "c:@E@AVAudioSessionCategoryOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16KeyWordDetection14AVAudioWrapperC17setSessionOptions07sessionH0ySo0dg8CategoryH0V_tF",
+            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC17setSessionOptions07sessionH0ySo0dg8CategoryH0V_tF",
+            "moduleName": "KeyWordDetection",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "start",
             "printedName": "start(frameLength:sampleRate:)",
             "children": [
@@ -5965,14 +5885,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KeyWordDetection14AVAudioWrapperC5start11frameLength10sampleRateys6UInt32V_AHtKF",
-            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC5start11frameLength10sampleRateys6UInt32V_AHtKF",
+            "usr": "s:16KeyWordDetection14AVAudioWrapperC5start11frameLength10sampleRateys6UInt32V_AHtF",
+            "mangledName": "$s16KeyWordDetection14AVAudioWrapperC5start11frameLength10sampleRateys6UInt32V_AHtF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -6004,165 +5924,10 @@
         "moduleName": "KeyWordDetection",
         "isOpen": true,
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AVAudioWrapperBuffer",
-        "printedName": "AVAudioWrapperBuffer",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(size:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AVAudioWrapperBuffer",
-                "printedName": "KeyWordDetection.AVAudioWrapperBuffer",
-                "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC4sizeACSi_tcfc",
-            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC4sizeACSi_tcfc",
-            "moduleName": "KeyWordDetection",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "write",
-            "printedName": "write(samples:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC5write7samplesySays5Int16VG_tKF",
-            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC5write7samplesySays5Int16VG_tKF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "read",
-            "printedName": "read(count:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int16]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC4read5countSays5Int16VGSi_tF",
-            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC4read5countSays5Int16VGSi_tF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "availableSamples",
-            "printedName": "availableSamples()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC16availableSamplesSiyF",
-            "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC16availableSamplesSiyF",
-            "moduleName": "KeyWordDetection",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16KeyWordDetection20AVAudioWrapperBufferC",
-        "mangledName": "$s16KeyWordDetection20AVAudioWrapperBufferC",
-        "moduleName": "KeyWordDetection",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -6328,21 +6093,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Int16]",
+                "printedName": "[Swift.Float]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int16",
-                    "printedName": "Swift.Int16",
-                    "usr": "s:s5Int16V"
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KeyWordDetection17SlieroVadDetectorC9predict_24dataSfSays5Int16VG_tKF",
-            "mangledName": "$s16KeyWordDetection17SlieroVadDetectorC9predict_24dataSfSays5Int16VG_tKF",
+            "usr": "s:16KeyWordDetection17SlieroVadDetectorC9predict_24dataSfSaySfG_tKF",
+            "mangledName": "$s16KeyWordDetection17SlieroVadDetectorC9predict_24dataSfSaySfG_tKF",
             "moduleName": "KeyWordDetection",
             "isOpen": true,
             "throwing": true,
@@ -6748,132 +6513,132 @@
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 7824,
-      "length": 2,
-      "value": "10"
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7906,
+      "offset": 7905,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7942,
+      "offset": 7941,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 7974,
+      "offset": 7973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 8424,
+      "offset": 8423,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 8481,
+      "offset": 8480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 8527,
+      "offset": 8526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 8612,
+      "offset": 8611,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 26511,
+      "offset": 27037,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27006,
+      "offset": 27532,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 27051,
+      "offset": 27577,
       "length": 12,
       "value": "\"ORTSession\""
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27071,
+      "offset": 27597,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 27112,
+      "offset": 27638,
       "length": 34,
       "value": "\"Failed to retrieve output values\""
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27545,
+      "offset": 28071,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27609,
+      "offset": 28135,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27618,
+      "offset": 28144,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27636,
+      "offset": 28162,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27866,
+      "offset": 28392,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 27871,
+      "offset": 28397,
       "length": 1,
       "value": "2"
     },
@@ -6908,126 +6673,105 @@
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "StringLiteral",
-      "offset": 688,
+      "offset": 523,
       "length": 17,
       "value": "\"silero_vad.onnx\""
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
-      "offset": 845,
+      "offset": 613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
-      "offset": 887,
+      "offset": 655,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
-      "offset": 966,
+      "offset": 734,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
-      "offset": 1056,
+      "offset": 824,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
-      "offset": 1160,
+      "offset": 928,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
-      "offset": 1411,
+      "offset": 1086,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
-      "offset": 1458,
+      "offset": 1133,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1512,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "Array",
-      "offset": 1614,
+      "offset": 1178,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "Array",
-      "offset": 1665,
+      "offset": 1229,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
-      "offset": 1713,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1944,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
-      "kind": "FloatLiteral",
-      "offset": 1994,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
-      "kind": "FloatLiteral",
-      "offset": 15711,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15742,
+      "offset": 1277,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
-      "offset": 17872,
+      "offset": 14194,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
-      "offset": 17895,
+      "offset": 14225,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 16355,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16378,
       "length": 1,
       "value": "5"
     },
@@ -7036,91 +6780,112 @@
       "kind": "IntegerLiteral",
       "offset": 49,
       "length": 4,
-      "value": "1024"
+      "value": "1600"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 147,
+      "offset": 172,
       "length": 5,
-      "value": "16000"
+      "value": "48000"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "Array",
-      "offset": 229,
+      "offset": 361,
       "length": 7,
       "value": "[16000]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 267,
+      "offset": 399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 306,
+      "offset": 438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "Dictionary",
-      "offset": 353,
+      "offset": 485,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1158,
+      "offset": 1417,
       "length": 1,
-      "value": "3"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1278,
+      "offset": 1453,
       "length": 1,
-      "value": "3"
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1492,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1547,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1606,
+      "length": 3,
+      "value": "5.0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "Array",
-      "offset": 1400,
+      "offset": 4580,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "Array",
-      "offset": 1467,
+      "offset": 4647,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 1508,
+      "offset": 4682,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperBuffer.swift",
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 101,
+      "offset": 5128,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 137,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 5180,
+      "length": 3,
+      "value": "2.0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
