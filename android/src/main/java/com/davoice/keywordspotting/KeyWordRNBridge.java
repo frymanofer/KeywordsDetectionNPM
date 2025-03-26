@@ -29,7 +29,7 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public Boolean setKeywordDetectionLicense(String instanceId, String licenseKey, Promise promise) {
+    public void setKeywordDetectionLicense(String instanceId, String licenseKey, Promise promise) {
         KeyWordsDetection instance = instances.get(instanceId);
         Log.d(TAG, "setKeywordDetectionLicense()");
 
@@ -40,7 +40,6 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
         Log.d(TAG, "setKeywordDetectionLicense(): " + (isLicesed ? "Licensed" : "Not Licensed"));
 
         promise.resolve(isLicesed);
-        return isLicesed;
     }
 
     // Create a new instance
@@ -61,9 +60,8 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
         }
     }
 
-    // Create a new instance
     @ReactMethod
-    public String getRecordingWav(String instanceId, Promise promise) {
+    public void getRecordingWav(String instanceId, Promise promise) {
         KeyWordsDetection instance = instances.get(instanceId);
         String recordingWav = "";
         if (instance == null) {
@@ -72,11 +70,10 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
         }
         try {
             recordingWav = instance.getRecordingWav();
-            promise.resolve("Instance ID: " + instanceId + " getting getRecordingWav");
+            promise.resolve(recordingWav);
         } catch (Exception e) {
-            promise.reject("CreateError", "Failed to create instance: " + e.getMessage());
+            promise.reject("GetRecordingWavError", "Failed to get recording WAV: " + e.getMessage());
         }
-        return recordingWav;
     }
 
     // Create a new instance
