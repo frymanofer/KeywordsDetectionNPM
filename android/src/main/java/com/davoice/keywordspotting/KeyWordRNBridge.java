@@ -66,7 +66,6 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
         String recordingWav = "";
         if (instance == null) {
             promise.reject("Instance not Exists", "Instance does not exists with ID: " + instanceId);
-            return recordingWav;
         }
         try {
             recordingWav = instance.getRecordingWav();
