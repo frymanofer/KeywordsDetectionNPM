@@ -24,10 +24,12 @@ Pod::Spec.new do |s|
     s.module_map = "module.modulemap"
 
     s.pod_target_xcconfig = {
+      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/../../node_modules/react-native-wakeword/ios/KeyWordDetection.xcframework/*/KeyWordDetection.framework/Headers',
+      "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/react-native-wakeword/ios/KeyWordDetection.xcframework/**/Headers",
       "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/react-native-wakeword/ios\"",
       "DEFINES_MODULE" => "YES"
     }
-    
+
     s.requires_arc = true
   end
   
