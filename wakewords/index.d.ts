@@ -1,6 +1,10 @@
 export default useModel;
+import { enableDucking } from "./KeyWordRNBridge";
+import { disableDucking } from "./KeyWordRNBridge";
+import { initAudioSessAndDuckManage } from "./KeyWordRNBridge";
+import { restartListeningAfterDucking } from "./KeyWordRNBridge";
 import { removeAllRNBridgeListeners } from "./KeyWordRNBridge";
 import { createKeyWordRNBridgeInstance } from "./KeyWordRNBridge";
 import { KeyWordRNBridgeInstance } from "./KeyWordRNBridge";
 import useModel from "./useModel";
-export { removeAllRNBridgeListeners, createKeyWordRNBridgeInstance, KeyWordRNBridgeInstance, useModel };
+export { enableDucking, disableDucking, initAudioSessAndDuckManage, restartListeningAfterDucking, removeAllRNBridgeListeners, createKeyWordRNBridgeInstance, KeyWordRNBridgeInstance, useModel };

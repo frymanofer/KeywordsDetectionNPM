@@ -303,8 +303,36 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class KeyWordsDetection;
+@class NSURL;
 @class NSString;
+
+SWIFT_CLASS("_TtC16KeyWordDetection29AudioSessionAndDuckingManager")
+@interface AudioSessionAndDuckingManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AudioSessionAndDuckingManager * _Nonnull shared;)
++ (AudioSessionAndDuckingManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)initAudioSessAndDuckManage SWIFT_METHOD_FAMILY(none);
+- (void)enableAggressiveDucking;
+- (void)enableAggressiveDuckingWorksMaxSilencing;
+- (void)enableAggressiveDuckingWorksOnSecondTime;
+/// Example function to end ducking. Deactivates session and stops engine.
+- (void)disableDucking;
+/// Example function to end ducking. Deactivates session and stops engine.
+- (void)disableDuckingWorks;
+- (void)disableDuckingDidNotUnDuck;
+/// Example function to end ducking. Deactivates session and stops engine.
+- (void)disableDuckingOrg;
+- (void)restartListeningAfterDucking;
+/// Example function to end ducking. Deactivates session and stops engine.
+- (void)disableDuckingAndCleanup;
+/// BELOW IS FROM CHATGPT – XXX NOT TESTED AND PROBABLY BUGGY
+- (void)activateSessionForDucking;
+- (void)playInstructionSound:(NSURL * _Nonnull)soundURL;
+- (void)speakInstruction:(NSString * _Nonnull)text;
+- (void)deactivateSession;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class KeyWordsDetection;
 
 SWIFT_CLASS("_TtC16KeyWordDetection15GlobalVariables")
 @interface GlobalVariables : NSObject
@@ -331,7 +359,7 @@ SWIFT_CLASS("_TtC16KeyWordDetection17KeyWordsDetection")
 - (BOOL)setKeywordDetectionLicenseWithLicenseKey:(NSString * _Nonnull)licenseKey SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)setLicenseWithLicenseKey:(NSString * _Nonnull)licenseKey SWIFT_WARN_UNUSED_RESULT;
 - (void)callBackWithFrame:(NSArray<NSNumber *> * _Nonnull)frame;
-- (BOOL)startListening SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)startListeningWithSetActive:(BOOL)setActive duckOthers:(BOOL)duckOthers mixWithOthers:(BOOL)mixWithOthers defaultToSpeaker:(BOOL)defaultToSpeaker SWIFT_WARN_UNUSED_RESULT;
 - (void)stopListening;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");

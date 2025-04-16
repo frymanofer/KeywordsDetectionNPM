@@ -35,7 +35,7 @@ export class KeyWordRNBridgeInstance {
     }
 
     async setKeywordDetectionLicense(license) {
-        return KeyWordRNBridge.setKeywordDetectionLicense(this.instanceId, license);
+        return await KeyWordRNBridge.setKeywordDetectionLicense(this.instanceId, license);
     }
 
     async replaceKeywordDetectionModel(modelName, threshold, bufferCnt) {
@@ -52,8 +52,24 @@ export class KeyWordRNBridgeInstance {
         return KeyWordRNBridge.setKeywordLicense(this.instanceId, license);
     }
 
-    async startKeywordDetection(threshold) {
-        return KeyWordRNBridge.startKeywordDetection(this.instanceId, threshold);
+    async startKeywordDetection(threshold,
+        setActive = true,
+        duckOthers = false,
+        mixWithOthers = true,
+        defaultToSpeaker = true) {
+    
+        if (Platform.OS === 'ios') {
+            return KeyWordRNBridge.startKeywordDetection(
+                this.instanceId,
+                threshold,
+                setActive,
+                duckOthers,
+                mixWithOthers,
+                defaultToSpeaker
+              );
+        } else {
+            return KeyWordRNBridge.startKeywordDetection(this.instanceId, threshold);
+        }
     }
 
     async stopKeywordDetection() {
@@ -85,5 +101,36 @@ export const removeAllRNBridgeListeners = async () => {
 }
 
 export const createKeyWordRNBridgeInstance = async (instanceId, isSticky) => {
-    return new KeyWordRNBridgeInstance(instanceId, isSticky);
+    return await new KeyWordRNBridgeInstance(instanceId, isSticky);
 };
+
+export const enableDucking = async () => {
+    if (Platform.OS === 'ios') {
+        await KeyWordRNBridge.enableAggressiveDucking();
+    }
+}
+
+export const disableDucking = async () => {
+    if (Platform.OS === 'ios') {
+        await KeyWordRNBridge.disableDucking();
+    }
+}
+
+export const restartListeningAfterDucking = async () => {
+    if (Platform.OS === 'ios') {
+        await KeyWordRNBridge.restartListeningAfterDucking();
+    }
+}
+
+export const initAudioSessAndDuckManage = async () => {
+    if (Platform.OS === 'ios') {
+        await KeyWordRNBridge.initAudioSessAndDuckManage();
+    }
+}
+
+export const disableDuckingAndCleanup = async () => {
+    if (Platform.OS === 'ios') {
+        await KeyWordRNBridge.disableDuckingAndCleanup();
+    }
+}
+

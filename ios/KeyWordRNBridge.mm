@@ -1,3 +1,5 @@
+//ios/KeyWordRNBridge.mm
+
 #import "KeyWordRNBridge.h"
 #import <React/RCTBridge.h>
 #import <React/RCTLog.h>
@@ -94,6 +96,36 @@ RCT_EXPORT_METHOD(createInstance:(NSString *)instanceId modelName:(NSString *)mo
     }
 }
 
+RCT_EXPORT_METHOD(disableDucking:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+{
+  [AudioSessionAndDuckingManager.shared disableDucking];
+  resolve(@"enabled");
+}
+
+RCT_EXPORT_METHOD(initAudioSessAndDuckManage:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+{
+  [AudioSessionAndDuckingManager.shared initAudioSessAndDuckManage];
+  resolve(@"enabled");
+}
+
+RCT_EXPORT_METHOD(restartListeningAfterDucking:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+{
+  [AudioSessionAndDuckingManager.shared restartListeningAfterDucking];
+  resolve(@"disabled");
+}
+
+RCT_EXPORT_METHOD(enableAggressiveDucking:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+{
+  [AudioSessionAndDuckingManager.shared enableAggressiveDucking];
+  resolve(@"enabled");
+}
+
+RCT_EXPORT_METHOD(disableDuckingAndCleanup:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+{
+  [AudioSessionAndDuckingManager.shared disableDuckingAndCleanup];
+  resolve(@"disabled");
+}
+
 RCT_EXPORT_METHOD(setKeywordDetectionLicense:(NSString *)instanceId licenseKey:(NSString *)licenseKey resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 {
     KeyWordsDetectionWrapper *wrapper = self.instances[instanceId];
@@ -125,12 +157,22 @@ RCT_EXPORT_METHOD(replaceKeywordDetectionModel:(NSString *)instanceId modelName:
     }
 }
 
-RCT_EXPORT_METHOD(startKeywordDetection:(NSString *)instanceId threshold:(float)threshold resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+RCT_EXPORT_METHOD(startKeywordDetection:(NSString *)instanceId 
+    threshold:(float)threshold 
+    setActive:(BOOL)setActive
+    duckOthers:(BOOL)duckOthers
+    mixWithOthers:(BOOL)mixWithOthers
+    defaultToSpeaker:(BOOL)defaultToSpeaker
+    resolver:(RCTPromiseResolveBlock)resolve 
+    rejecter:(RCTPromiseRejectBlock)reject)
 {
     KeyWordsDetectionWrapper *wrapper = self.instances[instanceId];
     KeyWordsDetection *instance = wrapper.keyWordsDetection;
     if (instance) {
-        BOOL success = [instance startListening];
+        BOOL success = [instance startListeningWithSetActive:setActive
+                                                  duckOthers:duckOthers
+                                              mixWithOthers:mixWithOthers
+                                           defaultToSpeaker:defaultToSpeaker];
         if (success == false) {
             reject(@"StartError", [NSString stringWithFormat:@"Failed to start detection"], nil);
         } else {
