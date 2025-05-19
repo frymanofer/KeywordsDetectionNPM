@@ -311,11 +311,13 @@ SWIFT_CLASS("_TtC16KeyWordDetection29AudioSessionAndDuckingManager")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AudioSessionAndDuckingManager * _Nonnull shared;)
 + (AudioSessionAndDuckingManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)initAudioSessAndDuckManage SWIFT_METHOD_FAMILY(none);
+- (void)disableDucking;
+/// Example function to end ducking. Deactivates session and stops engine.
+- (void)_disableDucking;
 - (void)enableAggressiveDucking;
+- (void)_enableAggressiveDucking;
 - (void)enableAggressiveDuckingWorksMaxSilencing;
 - (void)enableAggressiveDuckingWorksOnSecondTime;
-/// Example function to end ducking. Deactivates session and stops engine.
-- (void)disableDucking;
 /// Example function to end ducking. Deactivates session and stops engine.
 - (void)disableDuckingWorks;
 - (void)disableDuckingDidNotUnDuck;
@@ -347,6 +349,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GlobalVariab
 @end
 
 @protocol KeywordDetectionRNDelegate;
+
+SWIFT_CLASS_NAMED("KWDRuntimeWrapper")
+@interface KWDRuntimeWrapper : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KWDRuntimeWrapper * _Nonnull shared;)
++ (KWDRuntimeWrapper * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, weak) id <KeywordDetectionRNDelegate> _Nullable delegate;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16KeyWordDetection17KeyWordsDetection")
 @interface KeyWordsDetection : NSObject
@@ -698,11 +709,13 @@ SWIFT_CLASS("_TtC16KeyWordDetection29AudioSessionAndDuckingManager")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AudioSessionAndDuckingManager * _Nonnull shared;)
 + (AudioSessionAndDuckingManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)initAudioSessAndDuckManage SWIFT_METHOD_FAMILY(none);
+- (void)disableDucking;
+/// Example function to end ducking. Deactivates session and stops engine.
+- (void)_disableDucking;
 - (void)enableAggressiveDucking;
+- (void)_enableAggressiveDucking;
 - (void)enableAggressiveDuckingWorksMaxSilencing;
 - (void)enableAggressiveDuckingWorksOnSecondTime;
-/// Example function to end ducking. Deactivates session and stops engine.
-- (void)disableDucking;
 /// Example function to end ducking. Deactivates session and stops engine.
 - (void)disableDuckingWorks;
 - (void)disableDuckingDidNotUnDuck;
@@ -734,6 +747,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GlobalVariab
 @end
 
 @protocol KeywordDetectionRNDelegate;
+
+SWIFT_CLASS_NAMED("KWDRuntimeWrapper")
+@interface KWDRuntimeWrapper : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KWDRuntimeWrapper * _Nonnull shared;)
++ (KWDRuntimeWrapper * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, weak) id <KeywordDetectionRNDelegate> _Nullable delegate;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16KeyWordDetection17KeyWordsDetection")
 @interface KeyWordsDetection : NSObject

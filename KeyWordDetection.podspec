@@ -1,3 +1,5 @@
+require 'json'
+
 Pod::Spec.new do |s|
     s.name         = "KeyWordDetection"
     s.version      = "1.0.0" # Update to your package version
@@ -16,17 +18,18 @@ Pod::Spec.new do |s|
     s.resources    = "ios/models/*"
     s.source_files        = 'ios/KeyWordRNBridge.h', 'ios/KeyWordRNBridge.mm', 'ios/KeyWordRNBridgeSwift.h','ios/KeyWordRNBridgeSwift.mm' 
 
+    s.static_framework = true     # applies to every subspec
+
     s.vendored_frameworks = "ios/KeyWordDetection.xcframework"
   
     s.dependency "React"
-    s.dependency "onnxruntime-objc", "~> 1.18.0"
+    s.dependency "onnxruntime-objc", "~> 1.20.0"
   
     s.module_map = "module.modulemap"
 
     s.pod_target_xcconfig = {
-      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/../../node_modules/react-native-wakeword/ios/KeyWordDetection.xcframework/*/KeyWordDetection.framework/Headers',
-      "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/react-native-wakeword/ios/KeyWordDetection.xcframework/**/Headers",
-      "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/react-native-wakeword/ios\"",
+      'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/../../node_modules/react-native-wakeword/ios/KeyWordDetection.xcframework/**/KeyWordDetection.framework/Headers',
+      "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)../../react-native-wakeword/ios\"",
       "DEFINES_MODULE" => "YES"
     }
 
