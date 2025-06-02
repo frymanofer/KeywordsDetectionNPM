@@ -9,4 +9,7 @@ android/local.properties
 android/.gradle/buildOutputCleanup/cache.properties
 package-lock.json
 wakewords/index.d.ts.chat_idiot
-x.java
+x
+react-native-wakeword-actually-works/
+
+

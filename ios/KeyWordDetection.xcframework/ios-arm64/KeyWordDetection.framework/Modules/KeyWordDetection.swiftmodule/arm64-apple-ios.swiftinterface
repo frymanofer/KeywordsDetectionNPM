@@ -50,7 +50,7 @@ public class AVAudioWrapperFrameListener {
   public func removeFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
   public func clearFrameListeners()
   public func setSessionOptions(sessionOptions: AVFAudio.AVAudioSession.CategoryOptions)
-  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32)
+  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32, setActive: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true)
   public func stop() throws
   @objc deinit
 }
@@ -101,12 +101,6 @@ public class AVAudioWrapper {
 }
 @objc public protocol KeywordDetectionRNDelegate {
   @objc func KeywordDetectionDidDetectEvent(_ eventInfo: [Swift.String : Any])
-}
-@_inheritsConvenienceInitializers @objc(KWDRuntimeWrapper) public class KWDRuntimeWrapper : ObjectiveC.NSObject {
-  @objc(shared) public static let shared: KeyWordDetection.KWDRuntimeWrapper
-  @objc weak public var delegate: (any KeyWordDetection.KeywordDetectionRNDelegate)?
-  @objc override dynamic public init()
-  @objc deinit
 }
 @objc public class KeyWordsDetection : ObjectiveC.NSObject {
   @objc weak public var delegate: (any KeyWordDetection.KeywordDetectionRNDelegate)?

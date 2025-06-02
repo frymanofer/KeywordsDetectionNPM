@@ -6,3 +6,8 @@ android/local.properties
 .gitignore
 .DS_Store
 ./ios/react-native-wakeword.podspec
+
+increase_package_json_version.sh
+update_lib_dir.sh
+upgrade_package.sh
+react-native-wakeword-actually-works/

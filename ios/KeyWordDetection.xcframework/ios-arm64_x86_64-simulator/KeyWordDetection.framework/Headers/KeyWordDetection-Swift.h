@@ -350,15 +350,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GlobalVariab
 
 @protocol KeywordDetectionRNDelegate;
 
-SWIFT_CLASS_NAMED("KWDRuntimeWrapper")
-@interface KWDRuntimeWrapper : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KWDRuntimeWrapper * _Nonnull shared;)
-+ (KWDRuntimeWrapper * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, weak) id <KeywordDetectionRNDelegate> _Nullable delegate;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC16KeyWordDetection17KeyWordsDetection")
 @interface KeyWordsDetection : NSObject
 @property (nonatomic, weak) id <KeywordDetectionRNDelegate> _Nullable delegate;
@@ -747,15 +738,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) GlobalVariab
 @end
 
 @protocol KeywordDetectionRNDelegate;
-
-SWIFT_CLASS_NAMED("KWDRuntimeWrapper")
-@interface KWDRuntimeWrapper : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KWDRuntimeWrapper * _Nonnull shared;)
-+ (KWDRuntimeWrapper * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, weak) id <KeywordDetectionRNDelegate> _Nullable delegate;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_CLASS("_TtC16KeyWordDetection17KeyWordsDetection")
 @interface KeyWordsDetection : NSObject
