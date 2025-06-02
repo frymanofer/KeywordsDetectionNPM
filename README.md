@@ -8,11 +8,14 @@ By [DaVoice.io](https://davoice.io)
 
 Welcome to **Davoice React-Native Wake Word / hotword / Keywords Detection** – Wake words and keyword detection solution designed by **DaVoice.io**.
 
+## New:
+Fix IOS issue with static Podfile linkage.
+
 ## About this package:
 
 This is a **"wake word"** package for React Native. A "wake word" is a keyword that activates your device, like "Hey Siri" or "OK Google". "Wake Word" is also known as "keyword detection", "Phrase Recognition", "Phrase Spotting", “Voice triggered”, “hot word”, “trigger word”
 
-It also provide **Speech to Intent**. **Speech to Intent** refers to the ability to recognize a spoken word or phrase
+It also provide **Voice Commands** AKA **Speech to Intent**. **Voice Commands** refers to the ability to recognize a spoken word or phrase
 and directly associate it with a specific action or operation within an application. Unlike a **"wake word"**, which typically serves to activate or wake up the application,
 Speech to Intent goes further by enabling complex interactions and functionalities based on the recognized intent behind the speech.
 
@@ -36,6 +39,9 @@ DaVoice        0.992481
 Top Player     0.874812
 Third          0.626567
 ```
+
+Please check this link for an official benchmake by lookdeep.health:
+https://www.reddit.com/r/Python/comments/1ioo4yd/bulletproof_wakewordkeyword_spotting/
 
 - **Easy to deploy wake word with React Native:** Check out our example: "rn_example/DetectingKeyWords.js". With a few simple lines of code, you have your own keyword detecting enabled app.
 - **Cross-Platform Support:** Integrate Davoice KeywordsDetection into React-Native Framework. Both iOS and Android are supported.
