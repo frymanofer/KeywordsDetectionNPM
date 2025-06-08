@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/frymanofer/KeywordsDetectionAndroidLibrary.git" # Update with your repo URL
     s.license      = { :type => "MIT" } # Update if different
     s.author       = { "Your Name" => "ofer@davoice.io" } # Update with your info
-    s.platform     = :ios, "13.5"
+    s.platform     = :ios, "11"
 #   s.source       = { :git => "https://github.com/frymanofer/KeywordsDetectionAndroidLibrary.git", :tag => s.version.to_s } # Update accordingly
     s.source       = { :path => "." }
 

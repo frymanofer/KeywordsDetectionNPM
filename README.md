@@ -11,6 +11,8 @@ Welcome to **Davoice React-Native Wake Word / hotword / Keywords Detection** –
 ## New:
 Fix IOS issue with static Podfile linkage.
 
+Reduce ios minimum version to 11 (was 13.5)
+
 ## About this package:
 
 This is a **"wake word"** package for React Native. A "wake word" is a keyword that activates your device, like "Hey Siri" or "OK Google". "Wake Word" is also known as "keyword detection", "Phrase Recognition", "Phrase Spotting", “Voice triggered”, “hot word”, “trigger word”
