@@ -9,6 +9,8 @@ By [DaVoice.io](https://davoice.io)
 Welcome to **Davoice React-Native Wake Word / hotword / Keywords Detection** – Wake words and keyword detection solution designed by **DaVoice.io**.
 
 ## New:
+Fix IOS crash when retaking microphone after a call.
+
 Fix IOS issue with static Podfile linkage.
 
 Reduce ios minimum version to 11 (was 13.5)
