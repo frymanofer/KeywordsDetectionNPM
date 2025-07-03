@@ -20,6 +20,23 @@ export class KeyWordRNBridgeInstance {
       this.isSticky = isSticky;
     }
   
+    async createInstanceMulti(modelNames, thresholds, bufferCnts, msBetweenCallbacks) {
+        const instance = await KeyWordRNBridge.createInstanceMulti(
+            this.instanceId,
+            modelNames,
+            thresholds,
+            bufferCnts,
+            msBetweenCallbacks
+        );
+
+        if (instance && this.isFirstInstance) {
+            this.isFirstInstance = false;
+            await KeyWordRNBridge.startForegroundService(this.instanceId);
+        }
+
+        return instance;
+    }
+
     async createInstance(modelName, threshold, bufferCnt) {
       instance = await KeyWordRNBridge.createInstance(
         this.instanceId,

@@ -42,6 +42,46 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
         promise.resolve(isLicesed);
     }
 
+    // Create a new instance efficiently
+    @ReactMethod
+    public void createInstanceMulti(String instanceId, ReadableArray modelPathsArray, ReadableArray thresholdsArray, ReadableArray bufferCntsArray, ReadableArray msBetweenCallbackArray, Promise promise) {
+        if (instances.containsKey(instanceId)) {
+            promise.reject("InstanceExists", "Instance already exists with ID: " + instanceId);
+            return;
+        }
+
+        try {
+            int size = modelPathsArray.size();
+            if (thresholdsArray.size() != size || bufferCntsArray.size() != size || msBetweenCallbackArray.size() != size) {
+                promise.reject("InvalidArguments", "All input arrays must be the same length.");
+                return;
+            }
+
+            // Convert ReadableArrays to Java arrays
+            String[] modelPaths = new String[size];
+            float[] thresholds = new float[size];
+            int[] bufferCnts = new int[size];
+            long[] msBetweenCallback = new long[size];
+
+            for (int i = 0; i < size; i++) {
+                modelPaths[i] = modelPathsArray.getString(i);
+                thresholds[i] = (float) thresholdsArray.getDouble(i);
+                bufferCnts[i] = bufferCntsArray.getInt(i);
+                msBetweenCallback[i] = (long) msBetweenCallbackArray.getDouble(i); // RN uses Double for all numbers
+            }
+
+            // Create instance
+            KeyWordsDetection keyWordsDetection = new KeyWordsDetection(reactContext, modelPaths, thresholds, bufferCnts, msBetweenCallback);
+            keyWordsDetection.initialize((detected, modelName) -> onKeywordDetected(instanceId, detected, modelName));
+
+            instances.put(instanceId, keyWordsDetection);
+            promise.resolve("Multi-model instance created with ID: " + instanceId);
+
+        } catch (Exception e) {
+            promise.reject("CreateError", "Failed to create multi-model instance: " + e.getMessage());
+        }
+    }
+
     // Create a new instance
     @ReactMethod
     public void createInstance(String instanceId, String modelName, float threshold, int bufferCnt, Promise promise) {
@@ -52,7 +92,8 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
 
         try {
             KeyWordsDetection keyWordsDetection = new KeyWordsDetection(reactContext, modelName, threshold, bufferCnt);
-            keyWordsDetection.initialize(detected -> onKeywordDetected(instanceId, detected));
+            keyWordsDetection.initialize((detected, ignored) -> onKeywordDetected(instanceId, detected, modelName));
+
             instances.put(instanceId, keyWordsDetection);
             promise.resolve("Instance created with ID: " + instanceId);
         } catch (Exception e) {
@@ -154,11 +195,12 @@ public class KeyWordRNBridge extends ReactContextBaseJavaModule {
     }
 
     // Handle keyword detection event
-    private void onKeywordDetected(String instanceId, Boolean detected) {
+    private void onKeywordDetected(String instanceId, boolean detected, String modelName) {
         if (detected) {
             WritableMap params = Arguments.createMap();
             params.putString("instanceId", instanceId);
-            params.putString("phrase", instanceId);
+            params.putString("phrase", modelName);
+            params.putString("modelName", modelName);
             sendEvent("onKeywordDetectionEvent", params);
         }
     }

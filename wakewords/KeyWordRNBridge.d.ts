@@ -4,6 +4,7 @@ export class KeyWordRNBridgeInstance {
     listeners: any[];
     isFirstInstance: boolean;
     isSticky: any;
+    createInstanceMulti(modelNames: any, thresholds: any, bufferCnts: any, msBetweenCallbacks: any): Promise<any>;
     createInstance(modelName: any, threshold: any, bufferCnt: any): Promise<any>;
     setKeywordDetectionLicense(license: any): Promise<any>;
     replaceKeywordDetectionModel(modelName: any, threshold: any, bufferCnt: any): Promise<any>;
