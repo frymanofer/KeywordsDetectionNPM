@@ -100,7 +100,13 @@ export class KeyWordRNBridgeInstance {
     onKeywordDetectionEvent(callback) {
         const listener = keywordRNBridgeEmitter.addListener('onKeywordDetectionEvent', (event) => {
             if (event.instanceId === this.instanceId) {
-                callback(event.phrase);
+                console.log("event == .", event);
+                if (Platform.OS === 'ios') {
+                    console.log("event == .", event);
+                    callback(event.info);
+                } else {
+                    callback(event.phrase);
+                }
             }
         });
         this.listeners.push(listener);

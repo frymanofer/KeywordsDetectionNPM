@@ -21,6 +21,14 @@
                             bridge:(KeyWordRNBridge *)bridge
                              error:(NSError **)error;
 
+- (instancetype)initWithInstanceId:(NSString *)instanceId
+                        modelNames:(NSArray<NSString *> *)modelNames
+                        thresholds:(NSArray<NSNumber *> *)thresholds
+                        bufferCnts:(NSArray<NSNumber *> *)bufferCnts
+                 msBetweenCallback:(NSArray<NSNumber *> *)msBetweenCallback
+                            bridge:(KeyWordRNBridge *)bridge
+                             error:(NSError **)error;
+
 @end
 
 @implementation KeyWordsDetectionWrapper
@@ -39,6 +47,33 @@
         if (*error) {
             return nil;
         }
+        _keyWordsDetection.delegate = self;
+    }
+    return self;
+}
+
+- (instancetype)initWithInstanceId:(NSString *)instanceId
+                        modelNames:(NSArray<NSString *> *)modelNames
+                        thresholds:(NSArray<NSNumber *> *)thresholds
+                        bufferCnts:(NSArray<NSNumber *> *)bufferCnts
+                 msBetweenCallback:(NSArray<NSNumber *> *)msBetweenCallback
+                            bridge:(KeyWordRNBridge *)bridge
+                             error:(NSError **)error {
+    if (self = [super init]) {
+        _instanceId = instanceId;
+        _bridge = bridge;
+
+        NSMutableArray<NSNumber *> *floatThresholds = [NSMutableArray array];
+        for (NSNumber *num in thresholds) {
+            [floatThresholds addObject:@(num.floatValue)];
+        }
+
+        _keyWordsDetection = [[KeyWordsDetection alloc] initWithModelPaths:modelNames
+                                                                thresholds:floatThresholds
+                                                                bufferCnts:bufferCnts
+                                                         msBetweenCallback:msBetweenCallback
+                                                                      error:error];
+        if (*error) return nil;
         _keyWordsDetection.delegate = self;
     }
     return self;
@@ -77,6 +112,35 @@ RCT_EXPORT_MODULE();
 
 - (NSArray<NSString *> *)supportedEvents {
     return @[@"onKeywordDetectionEvent"];
+}
+
+RCT_EXPORT_METHOD(createInstanceMulti:(NSString *)instanceId
+                  modelPaths:(NSArray<NSString *> *)modelPaths
+                  thresholds:(NSArray<NSNumber *> *)thresholds
+                  bufferCnts:(NSArray<NSNumber *> *)bufferCnts
+                  msBetweenCallback:(NSArray<NSNumber *> *)msBetweenCallback
+                  resolver:(RCTPromiseResolveBlock)resolve
+                  rejecter:(RCTPromiseRejectBlock)reject) {
+    if (self.instances[instanceId]) {
+        reject(@"InstanceExists", [NSString stringWithFormat:@"Instance already exists with ID: %@", instanceId], nil);
+        return;
+    }
+
+    NSError *error = nil;
+    KeyWordsDetectionWrapper *wrapper = [[KeyWordsDetectionWrapper alloc]
+        initWithInstanceId:instanceId
+               modelNames:modelPaths
+               thresholds:thresholds
+               bufferCnts:bufferCnts
+        msBetweenCallback:msBetweenCallback
+                   bridge:self
+                    error:&error];
+    if (error) {
+        reject(@"CreateError", [NSString stringWithFormat:@"Failed to create multi-model instance: %@", error.localizedDescription], nil);
+    } else {
+        self.instances[instanceId] = wrapper;
+        resolve([NSString stringWithFormat:@"Multi-model instance created with ID: %@", instanceId]);
+    }
 }
 
 RCT_EXPORT_METHOD(createInstance:(NSString *)instanceId modelName:(NSString *)modelName threshold:(float)threshold bufferCnt:(NSInteger)bufferCnt resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
