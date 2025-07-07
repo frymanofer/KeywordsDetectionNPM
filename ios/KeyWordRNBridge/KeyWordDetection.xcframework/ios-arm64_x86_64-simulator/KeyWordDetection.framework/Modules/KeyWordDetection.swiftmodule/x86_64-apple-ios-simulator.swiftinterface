@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios13-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KeyWordDetection
+// swift-module-flags: -target x86_64-apple-ios13.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KeyWordDetection
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFAudio
 import AVFoundation
@@ -50,7 +50,7 @@ public class AVAudioWrapperFrameListener {
   public func removeFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
   public func clearFrameListeners()
   public func setSessionOptions(sessionOptions: AVFAudio.AVAudioSession.CategoryOptions)
-  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32, setActive: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true)
+  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32)
   public func stop() throws
   @objc deinit
 }
@@ -106,8 +106,10 @@ public class AVAudioWrapper {
   @objc weak public var delegate: (any KeyWordDetection.KeywordDetectionRNDelegate)?
   public var eventSink: (([Swift.String : Any]) -> Swift.Void)?
   @objc convenience public init(modelPath: Swift.String, threshold: Swift.Float, bufferCnt: Swift.Int) throws
-  @objc public init(modelPath: Swift.String, threshold: Swift.Float, bufferCnt: Swift.Int, cancelEcho: Swift.Bool = false) throws
+  @objc convenience public init(modelPaths: [Swift.String], thresholds: [Foundation.NSNumber], bufferCnts: [Foundation.NSNumber], msBetweenCallback: [Foundation.NSNumber]) throws
+  @objc public init(modelPaths: [Swift.String], thresholds: [Swift.Float], bufferCnts: [Swift.Int], msBetweenCallback: [Swift.Int64], cancelEcho: Swift.Bool = false) throws
   @objc public func replaceKeywordDetectionModel(modelPath: Swift.String, threshold: Swift.Float, bufferCnt: Swift.Int) throws
+  @objc public func replaceKeywordDetectionModels(modelPaths: [Swift.String], thresholds: [Swift.Float], bufferCnts: [Swift.Int], msBetweenCallback: [Swift.Int64]) throws
   @objc public func getKeywordDetectionModel() -> Swift.String
   @objc public func getRecordingWav() -> Swift.String
   @objc public func setKeywordDetectionLicense(licenseKey: Swift.String) -> Swift.Bool

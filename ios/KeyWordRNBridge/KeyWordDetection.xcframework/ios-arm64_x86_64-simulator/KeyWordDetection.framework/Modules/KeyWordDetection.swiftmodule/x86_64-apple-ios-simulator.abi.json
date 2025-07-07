@@ -727,7 +727,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(frameLength:sampleRate:setActive:duckOthers:mixWithOthers:defaultToSpeaker:)",
+            "printedName": "start(frameLength:sampleRate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -745,39 +745,11 @@
                 "name": "UInt32",
                 "printedName": "Swift.UInt32",
                 "usr": "s:s6UInt32V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16KeyWordDetection16AVAudioWrapperCEC5start11frameLength10sampleRate9setActive10duckOthers07mixWithO016defaultToSpeakerys6UInt32V_ALS4btF",
-            "mangledName": "$s16KeyWordDetection16AVAudioWrapperCEC5start11frameLength10sampleRate9setActive10duckOthers07mixWithO016defaultToSpeakerys6UInt32V_ALS4btF",
+            "usr": "s:16KeyWordDetection16AVAudioWrapperCEC5start11frameLength10sampleRateys6UInt32V_AHtF",
+            "mangledName": "$s16KeyWordDetection16AVAudioWrapperCEC5start11frameLength10sampleRateys6UInt32V_AHtF",
             "moduleName": "KeyWordDetection",
             "declAttributes": [
               "AccessControl",
@@ -2232,7 +2204,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "KeyWordDetection"
+        "moduleName": "KeyWordDetection",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2678,7 +2653,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(modelPath:threshold:bufferCnt:cancelEcho:)",
+            "printedName": "init(modelPaths:thresholds:bufferCnts:msBetweenCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2688,21 +2663,141 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Array",
+                "printedName": "[Foundation.NSNumber]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Array",
+                "printedName": "[Foundation.NSNumber]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.NSNumber]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KeyWordDetection@objc(cs)KeyWordsDetection(im)initWithModelPaths:thresholds:bufferCnts:msBetweenCallback:error:",
+            "mangledName": "$s16KeyWordDetection0a5WordsC0C10modelPaths10thresholds10bufferCnts17msBetweenCallbackACSaySSG_SaySo8NSNumberCGA2KtKcfc",
+            "moduleName": "KeyWordDetection",
+            "objc_name": "initWithModelPaths:thresholds:bufferCnts:msBetweenCallback:error:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(modelPaths:thresholds:bufferCnts:msBetweenCallback:cancelEcho:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyWordsDetection",
+                "printedName": "KeyWordDetection.KeyWordsDetection",
+                "usr": "c:@M@KeyWordDetection@objc(cs)KeyWordsDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int64]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -2713,10 +2808,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@KeyWordDetection@objc(cs)KeyWordsDetection(im)initWithModelPath:threshold:bufferCnt:cancelEcho:error:",
-            "mangledName": "$s16KeyWordDetection0a5WordsC0C9modelPath9threshold9bufferCnt10cancelEchoACSS_SfSiSbtKcfc",
+            "usr": "c:@M@KeyWordDetection@objc(cs)KeyWordsDetection(im)initWithModelPaths:thresholds:bufferCnts:msBetweenCallback:cancelEcho:error:",
+            "mangledName": "$s16KeyWordDetection0a5WordsC0C10modelPaths10thresholds10bufferCnts17msBetweenCallback10cancelEchoACSaySSG_SaySfGSaySiGSays5Int64VGSbtKcfc",
             "moduleName": "KeyWordDetection",
-            "objc_name": "initWithModelPath:threshold:bufferCnt:cancelEcho:error:",
+            "objc_name": "initWithModelPaths:thresholds:bufferCnts:msBetweenCallback:cancelEcho:error:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -2758,6 +2853,85 @@
             "mangledName": "$s16KeyWordDetection0a5WordsC0C014replaceKeywordC5Model9modelPath9threshold9bufferCntySS_SfSitKF",
             "moduleName": "KeyWordDetection",
             "objc_name": "replaceKeywordDetectionModelWithModelPath:threshold:bufferCnt:error:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "replaceKeywordDetectionModels",
+            "printedName": "replaceKeywordDetectionModels(modelPaths:thresholds:bufferCnts:msBetweenCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int64]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KeyWordDetection@objc(cs)KeyWordsDetection(im)replaceKeywordDetectionModelsWithModelPaths:thresholds:bufferCnts:msBetweenCallback:error:",
+            "mangledName": "$s16KeyWordDetection0a5WordsC0C014replaceKeywordC6Models10modelPaths10thresholds10bufferCnts17msBetweenCallbackySaySSG_SaySfGSaySiGSays5Int64VGtKF",
+            "moduleName": "KeyWordDetection",
+            "objc_name": "replaceKeywordDetectionModelsWithModelPaths:thresholds:bufferCnts:msBetweenCallback:error:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3880,44 +4054,16 @@
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "IntegerLiteral",
-      "offset": 4197,
+      "offset": 4113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "FloatLiteral",
-      "offset": 4249,
+      "offset": 4165,
       "length": 3,
       "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9898,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9956,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10018,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10082,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
@@ -4040,274 +4186,351 @@
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 6816,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 6895,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 6940,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 6990,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 7069,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 7141,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7127,
+      "offset": 7262,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 7306,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 7322,
+      "offset": 7346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7478,
+      "offset": 7502,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7619,
+      "offset": 7643,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7624,
+      "offset": 7648,
       "length": 2,
       "value": "97"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 7905,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 7917,
+      "offset": 7946,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7953,
+      "kind": "Array",
+      "offset": 7989,
       "length": 2,
-      "value": "16"
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 7985,
+      "offset": 8021,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 8069,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 8122,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
+      "kind": "Array",
+      "offset": 8209,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 8480,
+      "offset": 8534,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8526,
-      "length": 1,
-      "value": "0"
+      "kind": "Array",
+      "offset": 8582,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8611,
-      "length": 4,
-      "value": "5000"
+      "kind": "Array",
+      "offset": 8630,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 8921,
+      "offset": 9789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 25435,
+      "offset": 28730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 25493,
+      "offset": 28788,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 25555,
+      "offset": 28850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 25619,
+      "offset": 28914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 29317,
+      "offset": 33075,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 29797,
+      "offset": 33555,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 29842,
+      "offset": 33600,
       "length": 12,
       "value": "\"ORTSession\""
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 29862,
+      "offset": 33620,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 29903,
+      "offset": 33661,
       "length": 34,
       "value": "\"Failed to retrieve output values\""
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30435,
+      "offset": 34193,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30650,
+      "offset": 34408,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30659,
+      "offset": 34417,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30677,
+      "offset": 34435,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30735,
+      "offset": 34493,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30755,
+      "offset": 34513,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30766,
+      "offset": 34524,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30787,
+      "offset": 34545,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30807,
+      "offset": 34565,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30810,
+      "offset": 34568,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30821,
+      "offset": 34579,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30842,
+      "offset": 34600,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30862,
+      "offset": 34620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30865,
+      "offset": 34623,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30868,
+      "offset": 34626,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 30879,
+      "offset": 34637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 31260,
+      "offset": 35018,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/oferfryman\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 31265,
+      "offset": 35023,
       "length": 1,
       "value": "2"
     },
